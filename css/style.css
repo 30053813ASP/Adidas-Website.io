@@ -1,0 +1,530 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+main{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+header{
+	width: 100%;
+	height: 140px;
+	background: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.adidas-logo{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: 20px 0 10px 20px;
+}
+
+.adidas-logo img{
+	width: 125px;
+	height: auto;
+}
+
+.lsm-logo{
+	width: 240px;
+	height: auto;
+	margin: 10px 10px 0 0;
+	margin-left: 43.3%;
+}
+
+.lsm-logo img{
+	width: 220px;
+	height: auto;
+}
+
+#nav{
+	width: 100%;
+	height: 50px;
+	background: #2546a6;
+}
+
+#nav a{
+	display: block;
+	width: 20%;
+	height: 50px;
+	float: left;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#nav a:hover{
+	background: #FF0000;
+	transition: 0.6s;
+}
+
+#hero{
+	width: 100%;
+	height: auto;
+}
+
+#hero img{
+	width: 100%;
+	height: auto;
+}
+
+#hero-text-box{
+	width: 20%;
+	height: auto;
+	overflow: auto;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	text-align: left;
+}
+
+#hero-text-box h1{
+	font-size: 46px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+#button{
+	width: 240px;
+}
+
+#button a{
+	background: #ff0000;
+	height: 60px;
+	display: block;
+	border: #ff0000;
+	border-radius: 3px;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 60px;
+}
+
+#button a:hover {
+	background: #FFFFFF;
+	color: #FF0000;
+	transition: 0.6s;
+}
+
+#container{
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#Event{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+#Event h2{
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 38px;
+	margin: 20px 0 10px;
+	border-top: 1px solid #ff0000;
+}
+
+#Event p{
+	margin-top: 10px;
+}
+
+#event-left{
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#event-left img{
+	width: 100%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#event-right{
+	width: 48%;
+	height: auto;
+	float: right;
+	font-size: 22px;
+	margin-top: 20px;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+
+#Aim{  /* this is for the section about the aim of the event */
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+#Aim h2{
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 38px;
+	margin: 20px 0 20px;
+	border-top: 1px solid #2546a6;
+}
+
+#Aim p{
+	margin-top: 5px;
+}
+
+#aim1{
+	width: 100%;
+	height: 500px;
+	margin-bottom: 20px;
+}
+
+#aim1-left{
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-left: 2%;
+}
+
+#aim1-left img{
+	width: 95%;
+	height: auto;
+}
+
+#aim1-right{
+	width: 52%;
+	height: auto;
+	text-align: left;
+	float: right;
+	margin-right: 1%;
+	font-size: 22px;
+	margin-top: 50px;
+}
+
+#aim2{
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+}
+
+#aim2-left{
+	width: 45%;
+	height: auto;
+	float: left;
+	text-align: left;
+	font-size: 22px;
+	margin-top: 50px;
+}
+
+#aim2-right {
+	width: 50%;
+	height: auto;
+	float: right;
+	margin-left: 2%;
+}
+
+#aim2-right img{
+	width: 95%;
+	heigth: auto;
+}  
+/* The aim section ends here */
+
+#Route{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+#Route h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 38px;
+	margin: 20px 0 20px;
+	border-top: 1px solid #FF0000;
+}
+
+#Route p{
+	margin-top: 5px;
+}
+
+#route-map{
+	width: 60%;
+	height: auto;
+	margin: 0 20%;
+}
+
+#route-map img{
+	width: 100%;
+	height: auto;
+}
+
+#route-details{
+	width: 72%;
+	height: auto;
+	margin: 0 14%;
+	text-align: left;
+	font-size: 22px;
+}
+
+#Sign-up{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+#Sign-up h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 38px;
+	margin: 20px 0 20px;
+	border-top: 1px solid #2546a6;
+}
+
+#SU-left{
+	width: 45%;
+	float: left;
+	margin-left: 2%;
+}
+
+#SU-left h3{
+	text-align: center;
+	font-weight: 400;
+	margin: 12px 0;
+	font-size: 32px;
+}
+
+#individual{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #6B8BE7;
+	border: #2546A5 1px solid;
+	border-radius: 8px;
+}
+
+#individual h3{
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#SU-right{
+	width: 45%;
+	float: left;
+	margin-left: 6%;
+}
+
+#SU-right h3{
+	text-align: center;
+	font-weight: 400;
+	margin: 12px 0;
+	font-size: 32px;
+}
+
+#group{
+	width: 100%;
+	height: auto;
+	float: right;
+	background: #FF9F9F;
+	border: #FF0000 1px solid;
+	border-radius: 8px;
+}
+
+#group h3{
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#individual input[type=text], input[type=date]{
+	width: 98%;
+	height: 40px;
+	border: #2546a5 1px solid;
+	border-radius: 2px;
+	margin: 0 1%;
+}
+
+#group input[type=text], input[type=number]{
+	width: 98%;
+	height: 40px;
+	border: #ff0000 1px solid;
+	border-radius: 2px;
+	margin: 0 1%;
+}
+
+button{
+	display: block;
+	width: 80px;
+	height: 20px;
+	margin: auto;
+	border-radius: 2px;
+	color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#individual button{
+	border: 1px solid #2546a5;
+	background: #2546a5;
+}
+
+#group button{
+	border: 1px solid #ff0000;
+	background: #ff0000;
+}
+
+#Adidas{
+	width: 98%;
+	height: auto;
+	overflow: auto;
+	font-size: 22px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#Adidas p{
+	margin-top: 5px;
+	margin-left: 1%;
+}
+
+#Adidas h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 38px;
+	margin: 20px 0 20px;
+	border-top: 1px solid #ff0000;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	background: #2546a5;
+	overflow: auto;
+}
+
+#fpartner{
+	width: 15%;
+	height: auto;
+	float: left;
+	margin-left: 20%;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+#fpartner img{
+	width: 50%;
+	height: auto;
+	margin-left: 15%;
+}
+
+#flondon{
+	width: 15%;
+	height: auto;
+	float: right;
+	margin-right: 20%;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+#flondon img{
+	width: 50%;
+	height: auto;
+	margin-left: 15%;
+}
+
+.mini{
+	width: 40px;
+	height: auto;
+	float: right;
+}
+
+.mini img{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+@media (max-width:1024px){
+	
+	.lsm-logo{
+		width: 240px;
+		height: auto;
+		margin: 10px 10px 0 0;
+		margin-left: 35%;
+	}
+	
+	#nav{
+		width: 100%;
+		height: 50px;
+		background: #2546a6;
+	}
+	
+	#nav a{
+		display: block;
+		width: 18%;
+		height: 50px;
+		float: left;
+		font-size: 20px;
+		line-height: 50px;
+		text-align: center;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	
+	#hero-text-box{
+		width: 100%;
+		top: 20%;
+	}
+	
+	#event-right{
+		margin-top: 0px;
+	}
+	
+	#aim1{
+		margin-bottom: 0px;
+	}
+	
+	#aim1-right{
+		margin-top: 0px;
+	}
+	
+	#aim2-left{
+		margin-top: 0px;
+	}
+	
+	#fpartner{
+		width: 25%;
+		margin-left: 10%;
+	}
+	
+	#flondon{
+		width: 25%;
+		margin-right: 10%;
+	}
+	
+	.mini{
+		width: 60px;
+	}
+}
