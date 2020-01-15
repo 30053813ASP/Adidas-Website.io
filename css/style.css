@@ -263,8 +263,14 @@ header{
 	border-top: 1px solid #FF0000;
 }
 
+#Route h3{
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+}
+
 #Route p{
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 #route-map{
